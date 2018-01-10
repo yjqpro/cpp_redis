@@ -8,7 +8,8 @@
         '<!@(python <(DEPTH)/build/glob_files.py includes *.hpp)',
       ],
       'include_dirs': [
-        'includes'
+        '.',
+        'includes',
       ],
       'direct_dependent_settings': {
         'include_dirs': [
